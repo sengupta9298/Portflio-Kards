@@ -1137,12 +1137,12 @@ input::-moz-focus-inner {
 .skill-bars li strong {
 	position: absolute;
 	left: 0;
-	right: -220px;
-	/* extends text area to the right */
+	right: -80px;
 	top: -3rem;
 	display: block;
 	white-space: normal;
-	/* allows wrapping only when truly needed */
+	word-break: break-word;
+	overflow-wrap: break-word;
 	font-family: "poppins-bold", sans-serif;
 	color: #313131;
 	text-transform: uppercase;
